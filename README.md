@@ -15,7 +15,7 @@ This repository stores the code for the work related to the use of Machine Learn
 The analysis is fully replicable. 
 The files are numerated from 0. to 5. to indicate the progression of the analysis, which coincides with the progression the paper takes as well.
 
-- 0.: Provides the code to read-in `.txt` output files from GrassHopper code into `pandas` Dataframes and `numpy` matrices for adjacency matrices. On top of this, some EDA is done on the single features for feature selection purposes;
+- 0.: Provides the code to read-in `.txt` output files from GrassHopper code into `pandas` Dataframes and `numpy` matrices for adjacency matrices (the whole folder in the Google Drive is ingested here). The output of that process is stored in `data/graph_dict_flnms_dfs_adjmats.pkl`, so it's not necessary to run the first portion. On top of this, some EDA is done on the single features for feature selection purposes;
 - 1.: Provides the code for pair plots in R;
 - 2.: Room Level Classification Results;
 - 3.: Building Level Analysis;
@@ -27,6 +27,8 @@ The files are numerated from 0. to 5. to indicate the progression of the analysi
 ## 2 Comments
 When necessary, code found elsewhere is acknowledged in line.
 `pip_requirements.txt` reports the version of the main packages used - analysis was done in Python `2.7.10` and R version `3.4.3`, "Kite-Eating Tree".
+
+This [Google Drive folder](https://drive.google.com/open?id=1_OVjXOzue_rNoSBZByl4HItWjew2fO3K) is the main repository for the architectural plans, including the processing code for the architectural plans in Grasshopper, which can be consulted for more information.
 
 ## 3 Contributors 
 Code was written jointly by the following authors:
