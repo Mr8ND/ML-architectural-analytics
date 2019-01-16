@@ -22,7 +22,6 @@ The files are numerated from 0. to 5. to indicate the progression of the analysi
 - 4.: Creating the Gram Matrix from graphs adjaciency matrices;
 - 5.: Performing Kernel SVM Implementations.
 
-*NOTE*: Instead of the ipython notebooks, the first pages includes `.html` printouts. The ipython notebooks are containes in the `ipython_ntb` folder.
 
 ## 2 Comments
 When necessary, code found elsewhere is acknowledged in line.
